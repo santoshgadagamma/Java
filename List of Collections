@@ -1,0 +1,57 @@
+Collection is a legacy frame work in Java. It is set of classes and interfaces those are used to implement commonly re-usable data structures. These are the common qualities of collections.
+
+    Follow Order:
+    Generally, collections are the legacy frameworks which are used to collect and store elements. Few of the collections follow an order to store elements either ascending or descending or fifo.
+    Allow Duplicate:
+    Some of the collections are allowed duplicate values and some are not.
+    Allow Null values:
+    Collections like set, stack are not allowed null values or no value elements.
+    Random Access:
+    It is an interface since 1.4, it allows access elements randomly.
+    Key-Value Pair:
+    Elements are stored in Key value pairing in few of the collections.
+    Blocking:
+    Blocking the threads, that threads are make operations like insert or delete elements.
+    Thread safe:
+    When any program access multiple resources or threads regardless of interleaving or scheduling it acts accurately.
+    Upper limits:
+    If the collection has maximum limit, then it is upper limit. To know upper limit use max() method.
+
+Below are tabulated over view of collections:
+Collections Overview
+Collection Name 	Follow order 	Allow Duplicate 	Allow Null Value 	Random Access 	Key-Value Pair 	Blocking 	Thread Safe 	Upper limits
+Widely Used collections
+Array List 	Yes 	Yes 	Yes 	Yes 	No 	No 	No 	No
+Vector 	Yes 	Yes 	Yes 	Yes 	No 	No 	Yes 	No
+HashMap 	No 	No 	Yes 	Yes 	Yes 	No 	No 	No
+Hashtable 	No 	No 	No 	Yes 	Yes 	No 	Yes 	No
+Stack 	Yes 	Yes 	Yes 	No 	No 	No 	Yes 	No
+TreeMap 	Yes 	No 	No 	Yes 	Yes 	No 	No 	No
+TreeSet 	Yes 	No 	No 	Yes 	No 	No 	No 	No
+HashSet 	No 	No 	Yes 	Yes 	No 	No 	No 	No
+LinkedList 	Yes 	Yes 	Yes 	No 	No 	No 	No 	No
+ArrayDeque 	Yes 	Yes 	No 	Yes 	No 	No 	No 	No
+Threadsafe Collections
+ConcurrentHashMap 	No 	No 	No 	Yes 	Yes 	No 	Yes 	No
+ConcurrentSkipListMap 	Yes 	No 	No 	Yes 	Yes 	No 	Yes 	No
+ConcurrentSkipListSet 	Yes 	No 	No 	No 	No 	No 	Yes 	No
+ConcurrentLinkedQueue 	Yes 	Yes 	No 	No 	No 	No 	Yes 	No
+ConcurrentLinkedDeQue 	Yes 	Yes 	No 	No 	No 	No 	Yes 	No
+CopyOnWriteArraySet 	Yes 	No 	Yes 	Yes 	No 	No 	Yes 	No
+CopyOnWriteArrayList 	Yes 	Yes 	Yes 	Yes 	No 	No 	Yes 	No
+Blocking Collections
+LinkedBlockingQueue 	Yes 	Yes 	No 	No 	No 	Yes 	Yes 	Yes
+LinkedTransferQueue 	Yes 	Yes 	No 	No 	No 	Yes 	Yes 	Yes
+LinkedBlockingDeQue 	Yes 	Yes 	No 	No 	No 	Yes 	Yes 	Yes
+PriorityBlockingQueue 	Yes 	Yes 	No 	No 	No 	Yes 	Yes 	No
+ArrayBlockingQueue 	Yes 	Yes 	No 	No 	No 	Yes 	Yes 	Yes
+SynchronousQueue 	Yes 	Yes 	No 	No 	No 	Yes 	Yes 	No
+DelayQueue 	Yes 	Yes 	No 	No 	No 	Yes 	Yes 	No
+Other collections
+Arrays 	Yes 	Yes 	Yes 	Yes 	No 	No 	No 	Yes
+WeakHeashMap 	No 	No 	Yes 	Yes 	Yes 	No 	No 	No
+Properties 	No 	No 	No 	Yes 	Yes 	No 	Yes 	No
+List 	No 	Yes 	Yes 	Yes 	No 	No 	Yes 	No
+Set 	No 	No 	No 	Yes 	No 	No 	Yes 	No
+Map 	No 	No 	No 	No 	Yes 	No 	No 	No
+Queue 	No (FIFO) 	No 	Yes (Some times) 	Yes 	No 	No 	Yes 	No
